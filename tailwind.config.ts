@@ -59,6 +59,6 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [tailwindCssAnimate],
+  plugins: [tailwindCssAnimate, require("tailwindcss-animate")],
 };
 export default config;
